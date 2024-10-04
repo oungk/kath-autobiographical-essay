@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="Katherine Oung Autobiographical Essay"
+      content="Katherine Oung's Autobiographical Essay for 2025 Washington Post Internship Application"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
@@ -24,6 +24,16 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+
+    <!-- import Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- import Bootstrap -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <title>Katherine Oung Autobiographical Essay</title>
   </head>
   
@@ -31,14 +41,15 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="header"></div>
 
-    <div class="hedline">
-      <h1>On being lucky</h1>
-      <h4>(and becoming an engineer-data-journalist)</h4>
-    </div>
+    
 
     <div class="container">
       <div class="row d-flex justify-content-center">
-        <div class="col-md-6">
+        <div class="col-md-8">
+          <div class="headline">
+            <h1>On being lucky</h1>
+            <h4>(and becoming an engineer-data-journalist)</h4>
+          </div>
 
           <p>In the back of my middle school’s 2016-17 yearbook there is a Letter from the Editor that I wrote at age thirteen. “I feel so lucky,” I’d written, about the opportunity to lead coverage of that school year as Editor-In-Chief.</p>
 
@@ -48,7 +59,8 @@
 
           <p>After a school shooting occurred at ​​Marjory Stoneman Douglas High School in 2018, I joined a group of student reporters hired by the Since Parkland project. For a year, I wrote obituaries of youth killed by gun violence, and through meeting their family members, friends and teachers, learned about each of their vibrant and complex lives. </p>
         
-          <div id="graph" alt="Beeswarm baby."></div>
+          <div class="iframe">
+            <div class="flourish-embed flourish-sankey" data-src="visualisation/19671439"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/19671439/thumbnail" width="100%" alt="sankey visualization" /></noscript></div>          </div>
 
           <p>I find there are new stories to tell everywhere I go. At my high school, I learned about racist remarks made against Chinese students at the start of the COVID-19 pandemic and documented the aftermath in an Op-Doc for the New York Times. During driving lessons with my dad, I noticed when “community fridges” started popping up around Miami and reported on this phenomenon for Vox. </p>
 
@@ -60,7 +72,8 @@
 
           <p>That spring, I advocated for The Hustler to start a Data Section and eventually took on the role of Data Editor. </p>
         
-          <div id="graph" alt="Time series."></div>
+          <div class="iframe">
+            <div class="flourish-embed flourish-chart" data-src="visualisation/19671733"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/19671733/thumbnail" width="100%" alt="chart visualization" /></noscript></div>          </div>
 
           <p>As I tell every new Data staffer during training, I believe data is essential to journalism: it gives context, explains complicated concepts and quantifies systemic issues and trends; it is creative, artistic, and fun!</p>
 
@@ -68,9 +81,24 @@
 
           <p>Right now, I’m learning new skills by practicing D3 and finishing a scraper for a story at The Vanderbilt Hustler, while hosting weekly Data section workshops about skills like FOIAing and cleaning datasets in R and Python. As I look toward post-grad life myself, I know I want to spend the rest of my life learning, teaching and telling stories.</p>
 
+          <h3>
+            Find this page at <a href="https://oungk.github.io/kath-autobiographical-essay">https://oungk.github.io/kath-autobiographical-essay</a>.
+          </h3>
+
         </div>
       </div>
     </div>
+
+    <footer>
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-md-3 text-center"> <!-- Center the content in the column -->
+                <br>
+                <br>
+              </div>
+          </div>
+      </div>
+  </footer> 
     
 
       <!-- Optional JavaScript -->
